@@ -108,7 +108,6 @@ mc = minecraft.Minecraft.create(address="home.bakasky.top", port=4711)
 ```
 NekoSystem-V2/
 ├── neko_system.py    # 主程序文件
-├── requirements.txt  # 依赖包列表
 ├── README.md         # 项目说明
 └── LICENSE           # 许可证文件
 ```
