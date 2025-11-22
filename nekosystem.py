@@ -490,7 +490,7 @@ class NekoSystemMonitor:
 if __name__ == "__main__":
     try:
         # 连接到Minecraft
-        mc = minecraft.Minecraft.create(address="home.bakasky.top", port=4711)
+        mc = minecraft.Minecraft.create(address="xxx.xxx.xxx", port=4711)
         # mc = minecraft.Minecraft.create()  # 本地连接
         
         # 创建监控系统
@@ -510,4 +510,5 @@ if __name__ == "__main__":
             monitor.stop()
             
     except Exception as e:
+
         print(f"连接失败: {e}")
